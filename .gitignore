@@ -5,3 +5,8 @@ release-artifacts/*
 !output/.gitkeep
 .BoardConfig.mk
 RK-RELEASE-NOTES-IPC.txt
+
+# Local cross-build artifacts and crash dumps from Apple Silicon
+# Rosetta builds (see .claude-build-toolkits.sh / .claude-build-retry.sh).
+buildkit.tar.zst
+**/core
